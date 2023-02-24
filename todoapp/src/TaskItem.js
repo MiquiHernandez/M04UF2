@@ -8,7 +8,7 @@ class TaskItem extends React.Component{
 
 	render(){
 	 return (		
-		 <li>Tarea 1 <button type= "button">🗑️ </button></li>
+		 <li>{this.prop.text} <button type= "button">🗑️ </button></li>
 	 );
 	}
 
