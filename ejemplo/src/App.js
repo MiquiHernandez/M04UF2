@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
   		<form className="formulario">
-			<input type="text" name="msg" placeholder="Escribe"/> 
+			<p><CountButton /></p>
+			<p><CountButton /></p>
+			<p><CountButton /></p>
+			<p><CountButton /></p>
 			<p><CountButton /></p>
 		</form>
   	</div>
